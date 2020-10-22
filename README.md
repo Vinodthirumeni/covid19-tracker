@@ -94,29 +94,32 @@ go to https://disease.sh and get the API no authentication required
 
 
 3rd PARTY PLUGIN
-  Install Material UI(For icons and components)
-    npm install @material-ui/core
-    npm install @material-ui/icons
 
-  Install React Chart js2(For the access of chart in the project)
-    npm install --save react-chartjs-2 chart.js
+    Install Material UI(For icons and components)
+      npm install @material-ui/core
+      npm install @material-ui/icons
 
-  Install Numeral(For converting the format such as million,1k like that)
-    npm i numeral
-    
-  Install LeafLet(For integration of map to our project)
-    npm i react-leaflet
+    Install React Chart js2(For the access of chart in the project)
+      npm install --save react-chartjs-2 chart.js
+
+    Install Numeral(For converting the format such as million,1k like that)
+      npm i numeral
+
+    Install LeafLet(For integration of map to our project)
+      npm i react-leaflet
 
 DATABASE & DEPLOYMENT
-  > npm i firebase
-  > npm install -g firebase-tools
-  > login to gmail -> search for firebase -> choose account -> go to console -> create a project -> go to project setting -> grab the config file -> create firebase.js file in your application -> paste it
-  > firebase login
-  > firebase init
-  > Hosting -> Use Exiting project ->(pick the project name)
-  > insted of public give build
-  > Single page application? -> y
-  > npm run build(in future any chnages in the code means we have to use this again)
-  > firebase deploy
+      > npm i firebase
+      > npm install -g firebase-tools
+      > login to gmail -> search for firebase -> choose account -> go to console -> create a project -> go to project setting -> grab the config file -> create firebase.js file in your application -> paste it
+      > firebase login
+      > firebase init
+      > Hosting -> Use Exiting project ->(pick the project name)
+      > insted of public give build
+      > Single page application? -> y
+      > npm run build(in future any chnages in the code means we have to use this again)
+      > firebase deploy
 
 Note: npm i firebase (If not working try this and continue npm cache clean --force)
+
+Live Link : https://covid-19-tracker-da01c.web.app
