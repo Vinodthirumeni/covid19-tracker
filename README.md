@@ -67,19 +67,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-
-npx create-react-app covid-19-tracker
-npm install @material-ui/core
-npm install @material-ui/icons
-npm i firebase
-npm install --save react-chartjs-2 chart.js
-npm i numeral
-npm i react-leaflet
-npm i firebase
-npm i -g firebase-tools
-firebase login
-firebase init
-
 PROJECT NAME : Covid 19 Tracker
 
 TOOLS USED : ReactJs,Material UI,Firebase,React Chart js,Numeral,React Leaflet Map,
